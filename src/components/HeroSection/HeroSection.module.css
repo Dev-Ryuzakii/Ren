@@ -1,0 +1,59 @@
+.hero {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.heroTitle {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacer-md);
+    color: var(--white);
+}
+
+.heroVision {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacer-lg);
+    opacity: 0.9;
+}
+
+.ctaGroup {
+    display: flex;
+    gap: var(--spacer-md);
+}
+
+.heroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+    z-index: 1;
+}
+
+.heroImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+}

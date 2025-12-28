@@ -1,0 +1,72 @@
+[
+    {
+        "id": "sdg-10",
+        "title": "Reduced Inequalities",
+        "category": "Social",
+        "description": "Advance equal opportunities and social protection, in ways that focus on reducing the impediments faced by persons living with disabilities.",
+        "color": "#E11484"
+    },
+    {
+        "id": "sdg-2",
+        "title": "Zero Hunger",
+        "category": "Social",
+        "description": "Improve the food security of vulnerable households and make nutrition support accessible for persons with economically disadvantaged people.",
+        "color": "#D3A029"
+    },
+    {
+        "id": "sdg-12",
+        "title": "Responsible Consumption and Production",
+        "category": "Environmental",
+        "description": "Support environmental responsibility through recycling, waste reduction, and community sensitization projects.",
+        "color": "#BF8B2E"
+    },
+    {
+        "id": "sdg-9",
+        "title": "Industry, Innovation and Infrastructure",
+        "category": "Economic",
+        "description": "Support simple, accessible innovation and community infrastructure that are conducive to all-inclusive development.",
+        "color": "#F36D25"
+    },
+    {
+        "id": "sdg-4",
+        "title": "Quality Education",
+        "category": "Social",
+        "description": "Support education for inclusive learning through educational materials, literacy programmes, teachers training, and 21st century education.",
+        "color": "#C5192D"
+    },
+    {
+        "id": "sdg-3",
+        "title": "Good Health and Well-Being",
+        "category": "Social",
+        "description": "Provide accessible healthcare outreach, health education and community medical services.",
+        "color": "#4C9F38"
+    },
+    {
+        "id": "sdg-8",
+        "title": "Decent Work and Economic Growth",
+        "category": "Economic",
+        "description": "Provide skills training, livelihood support, and economic inclusion initiatives that prioritize persons with disabilities and low-income groups.",
+        "color": "#A21942"
+    },
+    {
+        "id": "sdg-17",
+        "title": "Partnerships for the Goals",
+        "category": "Partnership",
+        "description": "Build strong collaborations with government agencies, NGOs, disability organizations, and international partners to expand impact.",
+        "color": "#19486A"
+    },
+    {
+        "id": "sdg-13",
+        "title": "Climate Action",
+        "category": "Environmental",
+        "description": "Advance climate education and community resilience, guaranteeing participation and protection for people in environmental efforts.",
+        "color": "#3F7E44"
+    },
+    {
+        "id": "sdg-16",
+        "title": "Peace, Justice and Strong Institutions",
+        "category": "Social",
+        "description": "Encourage peaceful coexistence, community mediation, and accountable systems that protect the rights of all.",
+        "color": "#10689D"
+    }
+]

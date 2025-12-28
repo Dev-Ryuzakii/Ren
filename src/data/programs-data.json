@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Nutrition & Food Support",
+        "category": "Food Security",
+        "description": "Nutrition support and community feeding programs for vulnerable households.",
+        "impact": "Sustainable nutrition access",
+        "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=600"
+    },
+    {
+        "id": 2,
+        "title": "Inclusive Health Outreach",
+        "category": "Healthcare",
+        "description": "Disability-inclusive health outreach and medical screenings.",
+        "impact": "Accessible community medical services",
+        "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=600"
+    },
+    {
+        "id": 3,
+        "title": "Inclusive Learning & Education",
+        "category": "Education",
+        "description": "School materials, scholarships, and inclusive learning programs with 21st-century competency learning.",
+        "impact": "Empowering future leaders",
+        "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600"
+    },
+    {
+        "id": 4,
+        "title": "Skills & Economic Empowerment",
+        "category": "Economic",
+        "description": "Skills acquisition and vocational training for vulnerable groups and small-business support.",
+        "impact": "Financial independence",
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=600"
+    },
+    {
+        "id": 5,
+        "title": "Climate & Environment",
+        "category": "Environmental",
+        "description": "Environmental clean-up, recycling, and climate sensitization for community resilience.",
+        "impact": "Greener communities",
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=600"
+    },
+    {
+        "id": 6,
+        "title": "Peace-building & Mediation",
+        "category": "Social",
+        "description": "Peace-building and community mediation forums for inclusive development.",
+        "impact": "Inclusive peaceful coexistence",
+        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=600"
+    }
+]

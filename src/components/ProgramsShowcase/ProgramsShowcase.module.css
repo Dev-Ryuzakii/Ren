@@ -1,0 +1,63 @@
+.showcase {
+    padding: var(--spacer-xl) 0;
+    background-color: var(--white);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: var(--spacer-lg);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacer-md);
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-normal);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: var(--spacer-md);
+}
+
+.category {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: var(--spacer-xs);
+}
+
+.programTitle {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacer-sm);
+}
+
+.description {
+    margin-bottom: var(--spacer-md);
+    color: var(--neutral-dark);
+}
+
+.impact {
+    display: flex;
+    align-items: center;
+    gap: var(--spacer-xs);
+    font-weight: 600;
+    color: var(--accent-color);
+}
