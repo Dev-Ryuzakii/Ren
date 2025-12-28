@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
                                     <FaMapMarkerAlt style={{ color: 'var(--primary-color)', fontSize: '1.25rem' }} />
                                     <div>
                                         <strong>Office Location</strong>
-                                        <p>123 Hope Street, Unity City, UC 12345</p>
+                                        <p>7 acme road ikeja lagos</p>
                                     </div>
                                 </li>
                                 <li style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacer-sm)', marginBottom: 'var(--spacer-md)' }}>
