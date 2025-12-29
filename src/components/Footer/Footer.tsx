@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                     <ul className={styles.footerLinks}>
                         <li>Email: renrachamcharity@gmail.com</li>
                         <li>Phone: 07072547821</li>
-                        <li>Address: 123 Hope Street, Unity City</li>
+                        <li>Address: 7 acme road ikeja lagos</li>
                     </ul>
                 </div>
             </div>
