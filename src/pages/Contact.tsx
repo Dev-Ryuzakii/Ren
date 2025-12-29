@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
                                     <FaEnvelope style={{ color: 'var(--primary-color)', fontSize: '1.25rem' }} />
                                     <div>
                                         <strong>Email</strong>
-                                        <p>info@renracham.org</p>
+                                        <p>renrachamcharity@gmail.com</p>
                                     </div>
                                 </li>
                                 <li style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacer-sm)', marginBottom: 'var(--spacer-md)' }}>

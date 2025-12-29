@@ -4,6 +4,7 @@ import MissionSection from '../components/MissionSection/MissionSection';
 import SDGsDashboard from '../components/SDGsDashboard/SDGsDashboard';
 import ProgramsShowcase from '../components/ProgramsShowcase/ProgramsShowcase';
 import ContactForm from '../components/ContactForm/ContactForm';
+import heroImage from '../assets/annie-spratt-QdK6aujOLYs-unsplash.jpg';
 
 const Home: React.FC = () => {
     return (
@@ -15,7 +16,7 @@ const Home: React.FC = () => {
                 ctaPrimaryLink="/get-involved"
                 ctaSecondaryText="Our Work"
                 ctaSecondaryLink="/our-work"
-                backgroundImage="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200"
+                backgroundImage={heroImage}
             />
 
             <MissionSection />
