@@ -52,8 +52,55 @@
     z-index: 0;
 }
 
+/* Slider Indicators */
+.sliderIndicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2);
+}
+
+.activeIndicator {
+    background: var(--white);
+    width: 14px;
+    height: 14px;
+}
+
 @media (max-width: 768px) {
     .heroTitle {
         font-size: 2.5rem;
+    }
+
+    .sliderIndicators {
+        bottom: 20px;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .activeIndicator {
+        width: 12px;
+        height: 12px;
     }
 }
