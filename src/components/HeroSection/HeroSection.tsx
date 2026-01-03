@@ -2,6 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './HeroSection.module.css';
 
+// Import all hero images
+import heroImage1 from '../../assets/hero-images/20251215_120128(0).jpg';
+import heroImage2 from '../../assets/hero-images/20251215_120153.jpg';
+import heroImage3 from '../../assets/hero-images/20251215_121234.jpg';
+import heroImage4 from '../../assets/hero-images/20251215_121239.jpg';
+import heroImage5 from '../../assets/hero-images/20251215_121501.jpg';
+import heroImage6 from '../../assets/hero-images/20251218_125623.jpg';
+import heroImage7 from '../../assets/hero-images/20251218_130251.jpg';
+import heroImage8 from '../../assets/hero-images/20251219_162354.jpg';
+import heroImage9 from '../../assets/hero-images/20251219_162427.jpg';
+import heroImage10 from '../../assets/hero-images/20251219_162446.jpg';
+import heroImage11 from '../../assets/hero-images/20251219_175624.jpg';
+import heroImage12 from '../../assets/hero-images/20251219_175737.jpg';
+
 interface HeroProps {
     title: string;
     vision: string;
@@ -12,20 +26,20 @@ interface HeroProps {
     backgroundImage?: string;
 }
 
-// Import all hero images
+// Array of imported images
 const heroImages = [
-    '/src/assets/hero-images/20251215_120128(0).jpg',
-    '/src/assets/hero-images/20251215_120153.jpg',
-    '/src/assets/hero-images/20251215_121234.jpg',
-    '/src/assets/hero-images/20251215_121239.jpg',
-    '/src/assets/hero-images/20251215_121501.jpg',
-    '/src/assets/hero-images/20251218_125623.jpg',
-    '/src/assets/hero-images/20251218_130251.jpg',
-    '/src/assets/hero-images/20251219_162354.jpg',
-    '/src/assets/hero-images/20251219_162427.jpg',
-    '/src/assets/hero-images/20251219_162446.jpg',
-    '/src/assets/hero-images/20251219_175624.jpg',
-    '/src/assets/hero-images/20251219_175737.jpg',
+    heroImage1,
+    heroImage2,
+    heroImage3,
+    heroImage4,
+    heroImage5,
+    heroImage6,
+    heroImage7,
+    heroImage8,
+    heroImage9,
+    heroImage10,
+    heroImage11,
+    heroImage12,
 ];
 
 const HeroSection: React.FC<HeroProps> = ({
